@@ -1,5 +1,7 @@
 <template>
-  
+  <div :key="task.id" v-for="tasks in Tasks">
+    <h3>{{ tesk.text }}</h3>
+  </div>
 </template>
 
 <script>
