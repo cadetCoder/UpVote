@@ -1,6 +1,6 @@
 <template>
   <header>
-    <h1>Task Tracker</h1>
+    <h1>{{ title }}</h1>
     <Button class="btn"/>
   </header>
 </template>
@@ -9,6 +9,9 @@
 import Button from './Button'
 export default {
   name: 'Header',
+  props: {
+    title: String
+  },
   components: {
     Button
   }
