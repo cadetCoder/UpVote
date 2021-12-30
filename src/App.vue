@@ -1,6 +1,7 @@
 <template>
   <div class="container">
     <Header />
+    <Button />
   </div>
 </template>
 
