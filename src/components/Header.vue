@@ -1,7 +1,7 @@
 <template>
   <header>
     <h1>Task Tracker</h1>
-    <Button />
+    <Button class="btn"/>
   </header>
 </template>
 
