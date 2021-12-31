@@ -1,5 +1,5 @@
 <template>
-  <div :key="task.id" v-for="tasks in Tasks">
+  <div :key="task.id" v-for="task in Tasks">
     <h3>{{ tesk.text }}</h3>
   </div>
 </template>
