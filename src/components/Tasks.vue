@@ -1,6 +1,6 @@
 <template>
   <div :key="task.id" v-for="task in Tasks">
-    <h3>{{ tesk.text }}</h3>
+    <h3>{{ task.text }}</h3>
   </div>
 </template>
 
