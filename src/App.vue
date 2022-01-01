@@ -20,6 +20,11 @@ export default {
       tasks: []
     }
   },
+  methods: {
+    deleteTask(id) {
+      this.tasks = this.tasks.filter((task) => task.id !== id)
+    }
+  },
   created() {
     this.tasks = [
       {
