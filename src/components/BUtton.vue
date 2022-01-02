@@ -15,8 +15,8 @@ export default {
     color: String
   },
   methods: {
-    onclick() {
-      //
+    onClick() {
+      console.log('click')
     },
   }
 }
