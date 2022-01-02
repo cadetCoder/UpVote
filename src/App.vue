@@ -22,7 +22,7 @@ export default {
   },
   methods: {
     deleteTask(id) {
-      if( confirm('Are you sure?')) {
+      if( confirm('Are you sure you want to delete this task?')) {
         this.tasks = this.tasks.filter((task) => task.id !== id)
       }
     }
