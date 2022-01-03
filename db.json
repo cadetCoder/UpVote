@@ -17,12 +17,6 @@
       "text": "Food shopping",
       "day": "March 7th at 2:00pm",
       "reminder": false
-    },
-    {
-      "id": 80736,
-      "text": "Back to work",
-      "day": "January 4th at 8AM",
-      "remind": true
     }
   ]
 }
