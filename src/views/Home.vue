@@ -1,11 +1,9 @@
 <template>
-  <div v-show="showAddTask">
-      <AddTask @add-task="addTask"/>
-    </div>
-    <Tasks
-      @toggle-reminder="toggleReminder" @delete-task="deleteTask"
-      :tasks="tasks"
-    />
+  <AddTask v-show="showAddTask"/>
+  <Tasks
+    @toggle-reminder="toggleReminder" @delete-task="deleteTask"
+    :tasks="tasks"
+  />
 </template>
 
 <script>
@@ -18,7 +16,7 @@ export default {
   },
   components: {
     Tasks,
-    AddTask,
+    AddTask, 
   },
   data() {
     return {
